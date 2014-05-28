@@ -1,0 +1,64 @@
+/*colors:
+dark blue: #003399
+medium blue: #3366CC
+light blue: #6699FF
+white: #FFFFFF
+grey: #666666
+*/
+html {
+	background-color: #003399;
+}
+	
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	width: 760px;
+	margin: 1.5em auto;
+	border-style: solid;
+	border-width: 10px;
+	padding: 50px;
+	background-color: #6699FF;
+}
+
+h1 {
+	color: #FFFFFF;
+	background-color: #003399;
+	font-size: 70px;
+	padding-left: 100px;
+	margin-top: -10px;
+}
+
+.major {
+	font-size: 27px;
+	margin-top: -30px;
+	padding-bottom: 15px;
+}
+
+h2 {
+	color: #003399;
+}
+
+h3 {
+	color: #003366;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: underline;
+}
+img {
+	float: right;
+	padding-left: 20px;
+	height: 390px;
+}
+
+.name {
+	margin-top: -1px;
+}
+
+.experience {
+	margin-top: -1px;
+}
+
+p {
+	margin-top: -15px;
+}
