@@ -1,0 +1,39 @@
+/*colors:
+dark blue: #003399
+medium blue: #3366CC
+light blue: #6699FF
+white: #FFFFFF
+grey: #666666
+*/
+html {
+	background-color: #003399;
+}
+	
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	width: 760px;
+	margin: 1.5em auto;
+	border-style: solid;
+	border-width: 10px;
+	padding: 50px;
+	background-color: #6699FF;
+}
+
+h1 {
+	font: Arial;
+	color: #FFFFFF;
+}
+
+h2 {
+	font: Helvetica;
+	color: #003399;
+}
+
+h3 {
+	color: #003366;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: underline;
+}
