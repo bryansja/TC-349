@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>James Bryans</title>
+        <meta name="description" content="The homepage of James Bryans">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+      <header>
+      	<h1>James Bryans</h1>
+		<h2>Media and Information, Canton, MI</h2>
+      </header>
+	  <div id="map-location" data-0="background-image:url(img/map.jpg);opacity:.5;" data-500="background-image:url(img/mappin.jpg);opacity:1;" data-800="opacity:.5;">
+	  </div>
+	  <nav data-0="position:absolute;top:800px;" data-800="position:absolute;top:800px;" data-1500="position:absolute;top:1550px;">
+	  	<ul>
+	  		<li><a href="#about">About</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#video">Video Portfolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+	  	</ul>
+	  </nav>
+	  <article>
+	  	<section id="about">
+	  		<h3>About James</h3>
+			<p>My name is James Bryans and I am a student at Michigan State.  My major is Interactive and Social Media.  I have good experience with Microsoft and Adobe Programs.  I have knowledge with Python and JavaScript programming software.  I also have a good amount of skill in HTML and CSS markups.  My dream would be designing and programing interactive client websites.  The equipment that I use are MacBook Pro running the OSX Software and a HP running Windows 8 Software.  My passion is writting interactive website and designing the layout.  Making sure that the website is visually appealing and organized.</p>
+	  	</section>
+	  	<section id="portfolio">
+	  		<h3>Portfolio</h3>
+			<ul class="gallery">
+				<li><img alt="portfolio" src="img/Army.jpg"></li>
+				<li><img alt="portfolio" src="img/Cold.jpg"></li>
+				<li><img alt="portfolio" src="img/Login.jpg"></li>
+				<li><img alt="portfolio" src="img/Rubric.jpg"></li>
+				<li><img alt="portfolio" src="img/Calculator.jpg"></li>
+			</ul>
+		</section>		
+	  	<section id="video">
+	  		<h3>Video Portfolio</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla malesuada felis quis ligula imperdiet, non mollis odio ornare. Etiam eros nisl, tempor vitae tincidunt ut, faucibus nec justo. Pellentesque sodales risus a facilisis egestas. Aenean sed pharetra dolor. Duis vestibulum nulla ut velit sagittis pellentesque. </p>
+	  	</section>
+	  	<section id="contact">
+	  		<h3>Contact</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla malesuada felis quis ligula imperdiet, non mollis odio ornare. Etiam eros nisl, tempor vitae tincidunt ut, faucibus nec justo. Pellentesque sodales risus a facilisis egestas. Aenean sed pharetra dolor. Duis vestibulum nulla ut velit sagittis pellentesque. </p>
+	  	</section>
+	  </article>
+      	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/vendor/skrollr.min.js"></script>
+        <script src="js/vendor/skrollr.menu.min.js"></script>
+		<script src="js/plugins.js"></script>
+      	<script src="js/main.js"></script>
+        
+		<script type="text/javascript">
+		if ($(window).width() > 600) {
+			var s = skrollr.init();
+			
+			skrollr.menu.init(s, {
+			    //skrollr will smoothly animate to the new position using `animateTo`.
+			    animate: true,
+
+			    //The easing function to use.
+			    easing: 'sqrt',
+
+			    //Multiply your data-[offset] values so they match those set in skrollr.init
+			    scale: 2,
+
+			    //How long the animation should take in ms.
+			    duration: function(currentTop, targetTop) {
+			        //By default, the duration is hardcoded at 500ms.
+			        return 500;
+			    },
+			});
+		}
+		</script>
+    </body>
+</html>
