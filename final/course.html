@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Course</title>
+        <meta name="description" content="Golf Course Descriptions">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/course.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+       <nav>
+       	<ul>
+       		<li id="firstnav"><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="shop.html">Shop</a></li>
+			<li><a href="scorecard.html">Scorecard</a></li>
+			<li><a href="course.html">Course</a></li>
+       	</ul>
+       </nav>
+	   
+	   <form id="courseForm">
+		   <fieldset>
+			   <h2>Choose Course</h2>
+			   <div><select name="course" id="course">
+				   <option value="Golden Fox">Golden Fox</option>
+				   <option value="Northville Hills">Northville Hills</option>
+				   <option value="Tanglewood">Tanglewood</option>
+				   <option value="Pheasant Run">Pheasant Run</option>
+				   <option value="Forest Akers">Forest Akers</option>
+				   <option value="College Fields">College Fields</option>
+			   </select></div>
+			   <br />
+			   <div><input type="submit" value="Submit" id="submit"></div>
+		   </fieldset>
+	   </form>
+	   <br/>
+	   
+	   <form id="infoForm">
+		   <fieldset>
+			   <h2>Information Report</h2>
+			   <div><label for="drivingran">Driving Range:</label><input type="text" name="drivingran" id="drivingran" disabled></div>
+			   <div><label for="rentalcarts">Rental Cart Available:</label><input type="text" name="rentalcarts" id="rentalcarts" disabled></div>
+			   <div><label for="clubrental">Rental Clubs Available:</label><input type="text" name="clubrental" id="clubrental" disabled></div>
+		   </fieldset>
+	   </form>
+	   <br/>
+	   
+	   <form id="priceForm">
+		   <fieldset>
+			   <h2>Price Range to Play 18 Holes</h2>
+			   <div><label for="priceweek">Average Price on Weekdays:</label><input type="text" name="priceweek" id="priceweek" disabled></div>
+			   <div><label for="priceend">Average Price on Weekends:</label><input type="text" name="priceend" id="priceend" disabled></div>
+		   </fieldset>
+	   </form>
+	   
+	   <form id="slopeReport">
+		   <fieldset>
+			   <h2>Slope Rating</h2>
+			   <p>Slope rating of a golf course is a measure of its difficulty for bogey golfers.  Playing on more difficult courses, players scores will rise more quickly</p>
+			   <div><label for="women">Women Slope:</label><input type="text" name="women" id="women" disabled></div>
+			   <div><label for="intermediate">Intermediate Slope:</label><input type="text" name="intermediate" id="intermediate" disabled></div>
+			   <div><label for="advanced">Advanced Slope:</label><input type="text" name="advanced" id="advanced" disabled></div>
+		   </fieldset>
+	   </form>
+	   <br/>
+	   
+	   <form id="YardageReport">
+		   <fieldset>
+			   <h2>Total Yardage</h2>
+			   <div><label for="ywomen">Women Yardage:</label><input type="text" name="ywomen" id="ywomen" disabled></div>
+			   <div><label for="yintermediate">Intermediate Yardage:</label><input type="text" name="yintermediate" id="yintermediate" disabled></div>
+			   <div><label for="yadvnace">Advanced Yardage:</label><input type="text" name="yadvnace" id="yadvnace" disabled></div>
+		   </fieldset>
+	   </form>
+	   
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+		<script src="js/course.js"></script>
+		
+	</body>
+</html>
